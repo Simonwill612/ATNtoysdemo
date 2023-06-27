@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+* {
+                box-sizing: border-box;
+            }
+
+            div {
+                padding: 5px 0px;
+            }
+            a {
+                color: white;
+            }
+
+            #logo {
+                background-color: grey;
+                padding: 50px;
+                font-weight: bolder;
+                font-size: 50px;
+            }
+
+            #menu {
+                background-color: grey;
+                color:black;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            #main-content {
+                background-color: grey;
+                color: white;
+                padding: 300px;
+            }
+
+            #main-content::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        
+            #footer {
+                background-color: black;
+                color: white;
+                font-size: 20px;
+            }
+
+            ul 
+            {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:black;
+            }
+
+            li 
+            {
+            float: left;
+            }
+
+            li a 
+            {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            li a:hover 
+            {
+            background-color:grey;
+            } 
+        </style>
+
+    </head>
+    <body>
+        <div id="logo" href="index.html">ATN shop</div>
+
+        <div id="menu">
+            <ul>
+                <li><a class="active" href=>Home</a></li>
+                <li><a href="/product">Product</a></li>
+                <li><a href="/cart">Cart</a></li>
+                <li><a href="/contactinfo">Contact info</a></li>
+            </ul>
+        </div>
+
+        <div id="main-content">
+            Contact info: <br>
+            Owner: Le Thai Trung Tin (Simonwill) <br>
+            Phone number: (+84) 779077818<br>
+            Email: tinlttgcs210085@gmail.com<br>
+            Social media:<br>
+            <a href="">Instagram</a><br>
+            <a href="">Facebook</a>
+        </div>
+
+        <div id="footer">
+
+            Contact me:<br>
+           tinlttgcs210085<br>
+            (+84) 779077818<br>
+            | <a href="">Instagram</a> | <a href="">Facebook</a> | Zalo |
+        </div>
+
+    </body>
+</html>

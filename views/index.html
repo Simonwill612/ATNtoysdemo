@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+* {
+                box-sizing: border-box;
+            }
+
+            div {
+                padding: 5px 0px;
+            }
+            a {
+                color: white;
+            }
+
+            #logo {
+                background-color: rgb(24, 37, 161);
+                padding: 50px;
+                font-weight: bolder;
+                font-size: 50px;
+            }
+
+            #menu {
+                background-color: rgb(70, 11, 11);
+                color:black;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            #main-content 
+            {
+                background-color: rgb(12, 2, 2);
+                color: white;
+                padding: 300px;
+            }
+
+            #main-content::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        
+            #footer {
+                background-color: black;
+                color: white;
+            }
+
+            ul 
+            {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:black;
+            }
+
+            li 
+            {
+            float: left;
+            }
+
+            li a 
+            {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            li a:hover 
+            {
+            background-color:grey;
+            } 
+        </style>
+
+    </head>
+    <body>
+        <div id="logo" href="index.html">ATN shop</div>
+
+        <div id="menu">
+            <ul>
+                <li><a class="active" href=>Home</a></li>
+                <li><a href="/product.">Product</a></li>
+                <li><a href="/cart">Cart</a></li>
+                <li><a href="/contactinfo.js">Contact info</a></li>
+            </ul>
+        </div>
+
+        <div id="main-content">
+            This is one of the best toy shop in the world!
+            ATN is a Vietnamese company which is selling toys to teenagers in many provinces all over Vietnam.<br>
+            The company has the revenue over 700.000 dollars/year. 
+        </div>
+
+        <div id="footer">
+
+            Contact me:<br>
+            tinlttgcs210085<br>
+            (+84) 779077818<br>
+            | <a href="">Instagram</a> | <a href="">Facebook</a> | Zalo |
+        </div>
+
+    </body>
+</html>
